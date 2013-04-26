@@ -800,7 +800,7 @@ $L = $lang = array(
 'S',
 
 //----------------------------------------
-//  Ordinal suffixes
+//  Ordinal suffixes / There are no actual usage for these in finnish language.
 //----------------------------------------
 
 'suffix_0' =>

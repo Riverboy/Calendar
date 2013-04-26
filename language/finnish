@@ -1,0 +1,1051 @@
+<?php
+
+/**
+ * Calendar - Language
+ *
+ * @package  	Solspace:Calendar
+ * @author		Solspace, Inc.
+ * @copyright	Copyright (c) 2010-2013, Solspace, Inc.
+ * @link		http://solspace.com/docs/calendar
+ * @license		http://www.solspace.com/license_agreement
+ * @version		1.8.2
+ * @filesource	calendar/language/english/lang.calendar.php
+ */
+
+$L = $lang = array(
+
+//----------------------------------------
+// Required for MODULES page
+//----------------------------------------
+
+'calendar_module_name' =>
+'Kalenteri',
+
+'calendar_module_description' =>
+'Täydellinen kalenterimoduuli Expression Enginelle',
+
+'calendar_module_version' =>
+'Kalenteri',
+
+//----------------------------------------
+//  Installation
+//----------------------------------------
+
+'calendars_field_group_already_exists' =>
+'Lomakekenttäryhmä "Kalenteri: Kalenterit" on jo olemassa.',
+
+'events_field_group_already_exists' =>
+'Lomakerkenttäryhmä "Kalenteri: Tapahtumat" on jo olemassa.',
+
+'calendars_weblog_already_exists' =>
+'Tämän niminen kalenteri on jo olemassa.',
+
+'events_weblog_already_exists' =>
+'Tämän niminen tapahtumakanava on jo olemassa.',
+
+'cannot_install' =>
+'Kalenterimoduulia ei voi asentaa ennen kuin nämä virheet on korjattu:',
+
+//----------------------------------------
+//  Upgradeification
+//----------------------------------------
+
+'update_calendar' =>
+'Päivitä kalenteri',
+
+"update_successful"	=>
+"Moduuli on päivitetty onnistuneesti.",
+
+'calendar_update_message' =>
+'Uusi kalenteriversio on saatavilla. Haluatko päivittää?',
+
+'update_failure' =>
+'Kalenterimoduulin päivitys ei onnistunut.',
+
+'update_successful' =>
+'Kalenterimoduulin päivitys onnistui.',
+
+//----------------------------------------
+//  Main Menu
+//----------------------------------------
+
+'calendars' =>
+'Kalenterit',
+
+'events' =>
+'Tapahtumat',
+
+'occurrences' =>
+'Occurrences',
+'Tapahtumat',
+
+'reminders' =>
+'Muistutukset',
+
+'permissions' =>
+'Käyttöoikeudet',
+
+'preferences' =>
+'Asetukset',
+
+'documentation' =>
+'Online käyttöohjeet',
+
+'online_documentation' =>
+'Online käyttöohjeet',
+
+//----------------------------------------
+//  Publish/Edit / Julkaisu/muokkaus
+//----------------------------------------
+
+'filter' =>
+'suodata',
+
+'remove_edited_occurrences' =>
+'Poista muokatut oheistapahtumat',
+
+'remove_edited_occurrences_desc' =>
+'Poista valinta tästä kohdasta vain jos muokkaat tätä tapahtumaa. On suositeltavaa, että JÄTÄT TÄMÄN VALITUKSI jos olet muuttamassa tapahtuman AIKOJA, PÄIVIÄ, TAI PÄÄTTYMISPÄIVIÄ, jos poistat valinnan se johtaa tiedostojen luomiseen, joille ei ole mitään kytköstä.',
+
+'create_calendar_first' =>
+'Ennen tapahtuman lisäämistä, sinun tulee ensin luoda kalenteri.',
+
+'select_a_calendar' =>
+'Valitse kategoria',
+
+'new_date' =>
+'Uusi ajankohta',
+
+'add_rule' =>
+'Lisää sääntö',
+
+'editing_occurrence' =>
+'Muokataan <strong>%date%</strong> oheistapahtumaa <strong>%title%</strong>',
+
+'type' =>
+'Tyyppi',
+
+'include' =>
+'Sisällytä',
+
+'exclude' =>
+'Älä hyväksy',
+
+'repeat' =>
+'Toista',
+
+'none' =>
+'Ei mitään',
+
+'daily' =>
+'Päivittäin',
+
+'weekly' =>
+'Viikottain',
+
+'monthly' =>
+'Kuukausittain',
+
+'yearly' =>
+'Vuosittain',
+
+'select_dates' =>
+'Valitse päivät',
+
+'all_day_event' =>
+'Kokopäiväinen',
+
+'from' =>
+'Alkaen',
+
+'to' =>
+'Loppuu',
+
+'every' =>
+'Joka',
+
+'day_s' =>
+'Päivää',
+
+'week_s_on' =>
+'week(s) on',
+
+'at' =>
+'Kello',
+
+'month_s_by_day_of' =>
+'kuukausi/kuukaudet päivittäin',
+
+'1st' =>
+'ensimmäinen',
+
+'2nd' =>
+'toinen',
+
+'3rd' =>
+'kolmas',
+
+'4th' =>
+'neljäs',
+
+'5th' =>
+'viides',
+
+'only_on' =>
+'Ainoastaan',
+
+'year_s' =>
+'Vuotta',
+
+'end' =>
+'Päättyy',
+
+'never' =>
+'Ei koskaan',
+
+'by_date' =>
+'Päivämäärän mukaan',
+
+'after' =>
+'Jälkeen',
+
+'time_s' =>
+'aika/ajat',
+
+//----------------------------------------
+//  CP Calendars
+//----------------------------------------
+
+'calendar_id' =>
+'Kalenterin ID',
+
+'calendar_name' =>
+'Kalenterin nimi',
+
+'status' =>
+'Tila',
+
+'total_events' =>
+'Tapahtumia yhteensä',
+
+//----------------------------------------
+//  CP Events
+//----------------------------------------
+
+'event_id' =>
+'Tapahtuman ID',
+
+'event_name' =>
+'Tapahtuman nimi',
+
+'recurs' =>
+'Toistuu',
+
+'first_date' =>
+'Alkamispäivä',
+
+'last_date' =>
+'Päättymispäivä',
+
+'filter_events' =>
+"Lajittele tapahtumat",
+
+'filter_by_calendar' =>
+'Lajittele kalenterin mukaan',
+
+'filter_by_status' =>
+'Lajittele tilan mukaan',
+
+'filter_by_recurs' =>
+'Lajittele toistuvien mukaan',
+
+'order_by' =>
+'Järjestä',
+
+'date_is' =>
+'Päiväys on',
+
+'event_id' =>
+'Tapahtuman tunnus',
+
+'event_title' =>
+'Tapahtuman otsikko',
+
+'calendar_name' =>
+'Kalenterin nimi',
+
+'status' =>
+'Tila',
+
+'recurs' =>
+'Toistuu',
+
+'first_date_is' =>
+'Ensimmäinen päiväys on',
+
+'last_date' =>
+'Viimeinen päiväys on',
+
+'ascending' =>
+'Nouseva',
+
+'descending' =>
+'Laskeva',
+
+'or_later' =>
+'Tai myöhemmin',
+
+'or_earlier' =>
+'Tai aikaisemmin',
+
+'this_date' =>
+'Tämä päivä',
+
+'time' =>
+'Aika',
+
+'all_day' =>
+'Koko päivä',
+
+//----------------------------------------
+//  CP Events Delete
+//----------------------------------------
+
+'delete' =>
+'Poista',
+
+'delete_events' =>
+'Poista tapahtumat',
+
+'delete_events_title' =>
+'Poista tapahtuma(t)?',
+
+'delete_events_question' =>
+'Haluatko varmasti poistaa {COUNT} tapahtumaa?',
+
+
+'events_deleted' =>
+'Tapahtuma(t) on poistettu',
+
+//----------------------------------------
+//  CP Occurrences - CP esiintymät
+//----------------------------------------
+
+'occurrence_id' =>
+'Oheistapahtuman ID',
+
+'event_date' =>
+'Tapahtuman päiväys',
+
+'limit' =>
+'Rajoita',
+
+'page_limit' =>
+'Sivujen rajoitukset',
+
+'occurrences_limit' =>
+'Oheistapahtumien rajoitukset',
+
+// -------------------------------------
+//	Permissions - Oikeudet
+// -------------------------------------
+
+'calendar_permissions_desc' =>
+"Oikeudet voi asettaa kalenteria luodessa tai vaihtaa tässä. Ylläpitäjillä ja kaikilla niillä ryhmillä, jotka valittuna 'Salli täysi pääsy ryhmille' -kohdassa on vapaa pääsy kaikkiin kalentereihin. Ryhmät jotka valittuna 'Kiellä pääsy ryhmiltä' -kohdassa, eivät pääse mihinkään kalentereihin.",
+
+'allowed_groups' =>
+"Sallitut jäsenryhmät",
+
+'allow_full_access' =>
+'Salli täysi pääsy jäsenryhmille',
+
+'permissions_enabled' =>
+'Luvat aktivoitu',
+
+'save_permissions' =>
+'Tallenna luvat',
+
+'all_groups' =>
+'Kaikki jäsenryhmät',
+
+
+'allow_all' =>
+'Salli kaikki',
+
+'deny_all_access' =>
+'Kiellä pääsy ryhmiltä',
+
+'deny_takes_precedence' =>
+"Ohittaa kaikki muut asetukset",
+
+
+'permissions_saved' =>
+"Oikeudet tallennettu",
+
+'group_permissions' =>
+'Ryhmän oikeudet',
+
+'permissions_instructions' =>
+"Valitse ne ryhmät, joille haluat antaa oikeudet muokata kalenteria ja sen tapahtumia. (Ylläpitäjillä on aina oikeuden kaikkiin kalentereihin). Jos ryhmää ei ole näkyvissä, se löytyy kalenterin hallintapaneelin välilehdeltä 'salli kaikki' tai 'kiellä kaikki' -listalta.",
+
+'disallowed_behavior_for_edit_page' =>
+"Kielletty sivun muokkaamisen käyttö",
+
+'none' =>
+"Ei mitään",
+
+'search_filter' =>
+"Hakusuodatin",
+
+'disable_link' =>
+"Deaktivoi linkki",
+
+'permission_dialog_title' =>
+"Virhe oikeuksissa",
+
+'ok' => "OK",
+
+//----------------------------------------
+//  CP Preferences
+//----------------------------------------
+
+'preference' =>
+'Kentän tieto',
+
+'setting' =>
+'Pääasetukset',
+
+'description' =>
+'Kuvaus',
+
+'first_day_of_week' =>
+'Viikon ensimmäinen päivä',
+
+'first_day_of_week_description' =>
+'Sunnuntai ja maanantai ovat yleisimmät valinnat.',
+
+'clock_type' =>
+'Aika-asetus',
+
+'clock_type_description' =>
+'Käytä 12 tai 24 tunnin kelloa hallintapaneelissa?',
+
+'12_hour' =>
+'12 tuntia',
+
+'24_hour' =>
+'24 tuntia',
+
+'default_timezone' =>
+'Oletus aikavyöhyke',
+
+'default_timezone_description' =>
+'Uusien kalenterien aikavyöhykkeen oletus.',
+
+'preferences_updated' =>
+'Ominaisuudet on päivitetty.',
+
+
+// Tarkista sana datepicker kahdesta seuraavasta / The 2 following might be used in other way, need to double check.
+'default_date_format' =>
+'Ajanvalinnan formaatti',
+
+'default_date_format_description' =>
+'Ajan muoto ajanvalintatyökalulle.',
+
+'default_time_format' =>
+'Ajannäytön oletusasetus',
+
+'default_time_format_description' =>
+'Ajan näytön oletusasetus uusille kalentereille.',
+
+'calendar_weblog' =>
+'Kalenterit',
+
+'calendar_weblog_description' =>
+'Kanava(t) on, tai ovat yhtäkuin kalenteri(t)',
+
+'event_weblog' =>
+'Tapahtumien kanava(t)',
+
+'event_weblog_description' =>
+'Tapahtumat kalenterissa toimivat kuten normaali julkaisukanava',
+
+// -------------------------------------
+//	demo install (code pack)
+// -------------------------------------
+
+'demo_description' =>
+'Nämä esimerkkimallit auttavat sinua ymmärtämään paremmin kuinka Solspace Calendar -lisäosa toimii.',
+
+'template_group_prefix' =>
+'Sivupohjaryhmän esiliite',
+
+'template_group_prefix_desc' =>
+'Jokainen sivupohjaryhmä ja globaalit asennetaan käyttäen etuliitettä, jolla vältetään järjestelmävirheet.',
+
+'groups_and_templates' =>
+"Asennettavat mallit",
+
+'groups_and_templates_desc' =>
+"Nämä malliryhmät siihen liittyvine malleineen asennetaan nyt sinun ExpressionEngine-järjestelmääsi.",
+
+'screenshot' =>
+'Kuvaesimerkki',
+
+'install_demo_templates' =>
+'Asenna demo-mallit',
+
+'prefix_error' =>
+'Etuliitteet, joita käytetään malliryhmille, voivat sisältää ainoastaan aakkosnumeerisia merkkejä, ala- ja väliviivoja.',
+
+'demo_templates' =>
+'Demo mallit',
+
+//errors
+'ee_not_running'				=>
+'ExpressionEngine 2.x ei näytä olevan käytössä.',
+
+'invalid_code_pack_path'		=>
+'Virheellinen koodipaketin polku',
+
+'invalid_code_pack_path_exp'	=>
+'Polusta \'%path%\' ei löydy oikeaa koodipakettia.',
+
+'missing_code_pack'				=>
+'Koodipaketti puuttuu',
+
+'missing_code_pack_exp'			=>
+'Et ole valinnut asennettavaa koodipakettia.',
+
+'missing_prefix'				=>
+'Prefix needed',
+'Prefix eli etuliite tarvitaan',
+
+'missing_prefix_exp'			=>
+'Ole hyvä ja lisää etuliite mallipaketin asennusta varten.',
+
+'invalid_prefix'				=>
+'Virheellinen etuliite',
+
+'invalid_prefix_exp'			=>
+'Lisäämäsi etuliite ei kelpaa.',
+
+'missing_theme_html'			=>
+'Kansiota ei löydy',
+
+'missing_theme_html_exp'		=>
+'Asennuksestasi tulisi löytyä kansio nimeltä \'html\' polusta ( \'/themes/solspace_themes/code_pack/%code_pack_name%\' ). Tarkista että se on olemassa ja että se sisältää kaikki tarvittavat lisäkansiot, joita tarvitaan tämän koodipaketin käyttämiseen.',
+
+'missing_codepack_legacy'		=>
+'Tarvittava Legacy-kirjasto puuttuu jotta voit asentaa tämän koodipaketin.',
+
+//@deprecated
+'missing_code_pack_theme'		=>
+'Koodipaketin teema puuttuu',
+
+'missing_code_pack_theme_exp'	=>
+'Vähintään yksi kansio tulisi löytyä kansion \'%code_pack_name%\' sisältä, kohdassa \'/themes/code_pack/\'. Toimiva teema vaaditaan jotta voidaan jatkaa.',
+
+//conflicts
+'conflicting_group_names'		=>
+'Sivupohjaryhmän nimet ovat ristiriidassa',
+
+'conflicting_group_names_exp'	=>
+'Seuraavat sivupohjaryhmät ovat jo olemassa. Valitse toinen nimi välttääksesi ristiriidat. %conflicting_groups%',
+
+'conflicting_global_var_names'	=>
+'Yleisten muuttujien nimissä on ristiriita.',
+
+'conflicting_global_var_names_exp' =>
+'Sivuston yleisten muuttujien ja tämän koodipaketin yleisten muuttujien on ristiriitoja. Välttääksesi seuraavia ristiriitoja, harkitse käyttämäsi etuliitteen muuttamista. %conflicting_global_vars%',
+
+//success messages
+'global_vars_added'				=>
+'Globaalit muuttujat lisätty',
+
+'global_vars_added_exp'			=>
+'Tämä globaali sivupohjaan liitetty asetus on lisätty onnistuneesti. %global_vars%',
+
+'templates_added'				=>
+'Mallit on lisätty',
+
+'templates_added_exp'			=>
+'%template_count% mallia on lisätty onnistuneesti sivustollesi osana tätä koodipakettia.',
+
+"home_page"						=>"Etusivu",
+"home_page_exp"					=> "Katsele mallisivujesi etusivua täältä: %link%",
+
+//----------------------------------------
+//  Buttons
+//----------------------------------------
+
+'save' =>
+'Tallenna',
+
+'delete_selected_items' =>
+'Poista valitut kohteet',
+
+//----------------------------------------
+//  Errors
+//----------------------------------------
+
+'no_results' =>
+'Ei tuloksia.',
+
+'no_title' =>
+'Ei otsikkoa',
+
+'invalid_request' =>
+"Virheellinen pyyntö",
+
+'calendar_module_disabled' =>
+"Kalenterimoduuli ei ole tällä hetkellä käytössä. Varmista moduulin toimivuus ExpressionEnginen hallintapaneelin kautta ja että se on asennettu ja ajantasalla",
+
+'disable_module_to_disable_extension' =>
+"Poistaaksesi käytöstä tämän laajennuksen, sinun tulee poistaa käytöstä sen vastaava <a href='%url%'>moduuli</a>.",
+
+'enable_module_to_enable_extension' =>
+"Ottaaksesi käyttöön tämän laajennuksen, sinun täytyy asentaa sen vastaava <a href='%url%'>moduuli</a>.",
+
+'cp_jquery_requred' =>
+"Tätä moduulia käytettäessä 'jQuery for the Control Panel' -laajennuksen <a href='%extensions_url%'> tulee olla käytössä</a>.",
+
+'invalid_weblog_id' =>
+'tunnus (ID) ei kelpaa',
+
+'invalid_entry_id' =>
+'tunnus (ID)ei kelpaa',
+
+'invalid_site_id' =>
+'tunnus (ID) ei kelpaa',
+
+'invalid_calendar_id' =>
+'tunnus (ID) ei kelpaa',
+
+'invalid_ymd' =>
+'Päivämäärä ei kelpaa',
+
+'invalid_start_date' =>
+'Aloituspäivämäärä ei kelpaa',
+
+'invalid_end_date' =>
+'Päättymispäivämäärä ei kelpaa',
+
+'invalid_year' =>
+'Vuosi ei kelpaa',
+
+'invalid_month' =>
+'Kuukausi ei kelpaa',
+
+'invalid_day' =>
+'Päivä ei kelpaa',
+
+'invalid_date' =>
+'Päivämäärä ei kelpaa',
+
+'invalid_time' =>
+'Aika ei kelpaa',
+
+'invalid_start_time' =>
+'Aloitusaika ei kelpaa',
+
+'invalid_end_time' =>
+'Päättymisaika ei kelpaa',
+
+'invalid_hour' =>
+'Tunti ei kelpaa',
+
+'invalid_minute' =>
+'Minuutti ei kelpaa',
+
+'invalid_repeat_dates' =>
+'Päivämäärien toisto ei kelpaa',
+
+'invalid_calendar_permissions' =>
+'Sinulla ei ole oikeuksia muokata tai lisätä tapahtumia tähän kalenteriin',
+
+'no_permissions_for_any_calendars' =>
+"Sinulla ei ole oikeuksia lisätä tai muokata tapahtumia mihinkään kalenterin",
+
+'invalid_permissions_json_request' =>
+"In valid JSON request. Requires group_id and EE 2.x+.",
+
+'cannot_update_extensions_disabled' =>
+'Tätä moduulia ei voi päivittää jos laajennukset eivät ole käytössä.',
+
+//----------------------------------------
+//  Days
+//----------------------------------------
+
+'day_1_full' =>
+'Maanantai',
+
+'day_2_full' =>
+'Tiistai',
+
+'day_3_full' =>
+'Keskiviikko',
+
+'day_4_full' =>
+'Torstai',
+
+'day_5_full' =>
+'Perjantai',
+
+'day_6_full' =>
+'Lauantai',
+
+'day_0_full' =>
+'Sunnuntai',
+
+//----------------------------------------
+//  Days - 2 Letters
+//----------------------------------------
+
+'day_1_2' =>
+'Ma',
+
+'day_2_2' =>
+'Ti',
+
+'day_3_2' =>
+'Ke',
+
+'day_4_2' =>
+'To',
+
+'day_5_2' =>
+'Pe',
+
+'day_6_2' =>
+'La',
+
+'day_0_2' =>
+'Su',
+
+//----------------------------------------
+//  Days - 3 Letters
+//----------------------------------------
+
+'day_1_3' =>
+'Ma',
+
+'day_2_3' =>
+'Ti',
+
+'day_3_3' =>
+'Ke',
+
+'day_4_3' =>
+'To',
+
+'day_5_3' =>
+'Pe',
+
+'day_6_3' =>
+'La',
+
+'day_0_3' =>
+'Su',
+
+//----------------------------------------
+//  Days - Short
+//----------------------------------------
+
+'day_1_short' =>
+'Ma',
+
+'day_2_short' =>
+'Ti',
+
+'day_3_short' =>
+'Ke',
+
+'day_4_short' =>
+'To',
+
+'day_5_short' =>
+'Pe',
+
+'day_6_short' =>
+'La',
+
+'day_0_short' =>
+'Su',
+
+//----------------------------------------
+//  Days - 1 letter
+//----------------------------------------
+
+'day_1_1' =>
+'M',
+
+'day_2_1' =>
+'T',
+
+'day_3_1' =>
+'K',
+
+'day_4_1' =>
+'T',
+
+'day_5_1' =>
+'P',
+
+'day_6_1' =>
+'L',
+
+'day_0_1' =>
+'S',
+
+//----------------------------------------
+//  Ordinal suffixes
+//----------------------------------------
+
+'suffix_0' =>
+'',
+
+'suffix_1' =>
+'',
+
+'suffix_2' =>
+'',
+
+'suffix_3' =>
+'',
+
+'suffix_4' =>
+'',
+
+'suffix_5' =>
+'',
+
+'suffix_6' =>
+'',
+
+'suffix_7' =>
+'',
+
+'suffix_8' =>
+'',
+
+'suffix_9' =>
+'',
+
+'suffix_10' =>
+'',
+
+'suffix_11' =>
+'',
+
+'suffix_12' =>
+'',
+
+'suffix_13' =>
+'',
+
+'suffix_14' =>
+'',
+
+'suffix_15' =>
+'',
+
+'suffix_16' =>
+'',
+
+'suffix_17' =>
+'',
+
+'suffix_18' =>
+'',
+
+'suffix_19' =>
+'',
+
+//----------------------------------------
+//  Months
+//----------------------------------------
+
+'month_1_full' =>
+'Tammikuu',
+
+'month_2_full' =>
+'Helmikuu',
+
+'month_3_full' =>
+'Maaliskuu',
+
+'month_4_full' =>
+'Huhtikuu',
+
+'month_5_full' =>
+'Toukokuu',
+
+'month_6_full' =>
+'Kesäkuu',
+
+'month_7_full' =>
+'Heinäkuu',
+
+'month_8_full' =>
+'Elokuu',
+
+'month_9_full' =>
+'Syyskuu',
+
+'month_10_full' =>
+'Lokakuu',
+
+'month_11_full' =>
+'November',
+
+'month_12_full' =>
+'Joulukuu',
+
+//----------------------------------------
+//  Months - 3 letters
+//----------------------------------------
+
+// NOTE: THERE IS NO 3 letter usage at all in Finnish language
+'month_1_3' =>
+'Tam',
+
+'month_2_3' =>
+'Hel',
+
+'month_3_3' =>
+'Maa',
+
+'month_4_3' =>
+'Huh',
+
+'month_5_3' =>
+'Tou',
+
+'month_6_3' =>
+'Kes',
+
+'month_7_3' =>
+'Hei',
+
+'month_8_3' =>
+'Elo',
+
+'month_9_3' =>
+'Syy',
+
+'month_10_3' =>
+'Lok',
+
+'month_11_3' =>
+'Mar',
+
+'month_12_3' =>
+'Jou',
+
+//----------------------------------------
+//  am/pm
+//----------------------------------------
+
+'am' =>
+'am',
+// NOTE: In finnish, there is no such usage for these, so they are as-is
+
+'pm' =>
+'pm',
+
+'AM' =>
+'AM',
+
+'PM' =>
+'PM',
+
+'am_dot' =>
+'a.m.',
+
+'pm_dot' =>
+'p.m.',
+
+//----------------------------------------
+//  Date parameters
+//----------------------------------------
+
+'today' =>
+'tänään',
+
+'yesterday' =>
+'eilen',
+
+'tomorrow' =>
+'huomenna',
+
+'day' =>
+'päivä',
+
+'week' =>
+'viikko',
+
+'month' =>
+'kuukausi',
+
+'year' =>
+'vuosi',
+
+'ago' =>
+'sitten',
+
+'begin' =>
+'alkaa',
+
+'last' =>
+'päättyy',
+
+//----------------------------------------
+//  Time parameters
+//----------------------------------------
+
+'now' =>
+'nyt',
+
+'noon' =>
+'keskipäivä',
+
+'midnight' =>
+'keskiyö',
+
+
+//----------------------------------------
+//  field verbage
+//----------------------------------------
+
+'summary' =>
+'Yhteenveto',
+
+'location' =>
+'Sijainti',
+
+'dates_and_options' =>
+'Päivämäärät & Valinnat',
+
+'ics_url_label' =>
+'URL iCalendar (.ics) -tiedostoon',
+
+'ics_url_desc' =>
+ "Lisää yksi tai useampi URL .ics-tiedostoihin - eriteltynä rivinvaihdolla - tuodaksesi tähän kalenteriin. Kaikki tuodut ajat säädetään tämän kalenterin aikavyöhykeasetusten mukaisesti.",
+
+'ics_url_stub' =>
+"Kaikki tuodut ajat säädetään tämän kalenterin aikavyöhykeasetusten mukaisesti.",
+
+'time_format_label' =>
+'Ajan näytön muoto',
+
+'time_format_desc' =>
+'Oletusasetus tämän kalenterin ajan näytölle.',
+
+'timezone' =>
+'Aikavyöhyke',
+
+/* END */
+''=>''
+);
